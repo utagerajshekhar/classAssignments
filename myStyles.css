@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    width: 1000px;
+    height: 1000px;
+    margin: 0px;
+}
+div#page{
+    background-color: aquamarine;
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    position: relative;
+    top: 5%;
+}
+div#grandtitle{
+    background-color: rgb(241, 212, 138);
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    width: 700px;
+    position: fixed;
+    top: 0%;
+    margin: auto;
+}
