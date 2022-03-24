@@ -1,0 +1,159 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav a {
+    font-size: .75em;
+    display: inline-block;
+    line-height: 24px;
+    color: rgb(0, 0, 0, 0.87);
+    cursor: pointer;
+    padding: 5px 7px
+}
+nav a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+nav img {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav img:hover {
+    opacity: 1;
+}
+nav button {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 3px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+nav button:active {
+    background-color: black;
+}
+#logo{
+    display: block;
+    width: 210px;
+    height: 70px;
+    margin: 0px auto;
+    margin-top: 100px;
+
+}
+.form-block{
+    width: 600px;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+}
+#search-bar{
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1em;
+    padding: 12px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 90%;
+    outline: none;
+}
+#search-bar:hover{
+    border: 1px solid wheat;
+    box-shadow: 0 0 1px rgb(230, 59, 59);
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    opacity: .8;
+    position: absolute;
+    top: 48px;
+}
+.icon#search-icon{
+    left: 14px;
+}
+.icon#voice{
+    right: 14px;
+}
+.icon:hover{
+    opacity: 1;
+}
+.submit-button {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    color: #666;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 28px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 100ms;
+}
+
+.submit-button:hover {
+    border: 1px solid #aaa;
+}
+.options{
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.options *{
+    margin-right: 10px;
+    font-size: 14px;
+}
+footer{
+    background-color: rgb(238, 236, 236);
+    padding: 10px 0px 0px 0px;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer h4{
+    font-size: 1em;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgb(189, 186, 186);
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.links{
+    font-size: 1em;
+    padding: 10px 0px 10px 30px;
+    display: flex;
+}
+.links-2{
+   margin-left: 100px;
+}
+
+footer a {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+
+
+
+

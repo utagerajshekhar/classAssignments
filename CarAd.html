@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>
+        CarAd
+    </title>
+    <link rel="stylesheet" href="styles/CarAd.css" type="text/css">
+</head>
+
+<body>
+    <div id="page">
+
+        <header class="headings">
+            This is a <span>header</span> tag
+        </header>
+
+        <div id="exp3">
+            <h1 class="headings">
+                This is a usual h1 heading having div as a parent
+            </h1>
+            <p>
+                This is a usual paragraph, which is a direct child of div and direct sibling of h1
+            </p>
+        </div>
+
+        <div>
+            <article>
+                This is an article tag. I am the only child of this div
+            </article>
+        </div>
+
+        <div>
+            <section>
+                This is a section tag. I am the only child of this div
+            </section>
+        </div>
+
+        <div id="form_block">
+            <form action="dummy.html" id="form">
+                <h2>
+                    This is a h2 tag inside a form telling you guys this a feedback form
+                </h2>
+                <div>
+                    <label for="name" id="exp2" class="title">Enter your name: </label>
+                    <input id="name" type="text" name="name" maxlength="10">
+                </div>
+                <div>
+                    <label for="email" class="title">Enter your email id: </label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="rating" class="title">Rating: </label>
+                    <input type="number" name="rating" id="rating" min="1" max="10" 
+                    onkeydown="reSet(id,min,max)" onkeypress="reSet(id,min,max)" 
+                    onkeyup="reSet(id,min,max)">
+                    <!-- <select name="rating" id="rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select> -->
+                </div>
+                <div>
+                    <span class="title">Batch: </span>
+                    <input type="radio" id="batch_9"  name="batch" value="batch_9">
+                    <label for="batch_9" class="rad_label">09</label>
+                    <input type="radio" id="batch_10" name="batch" value="batch_9">
+                    <label for="batch_10" class="rad_label">10</label>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit form to get redirected to google" id="submit">
+                </div>
+            </form>
+        </div>
+
+        <div id="img_block">
+            <figure class="images">
+                <img src="images/kia.jpg" alt="image of kia car" title="Take home today" class="pic">
+                <figcaption>
+                    Kia launched in India on Saturday.
+                </figcaption>
+            </figure>
+        </div>
+
+        <div>
+            <footer class="headings">
+                This is a <span>footer</span> tag
+            </footer>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

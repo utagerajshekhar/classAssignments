@@ -1,93 +1,81 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>
-        HomePage
-    </title>
     <link rel="stylesheet" href="styles/index.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
 </head>
 
 <body>
-    <div id="page">
-
-        <header class="headings">
-            This is a <span>header</span> tag
-        </header>
-
-        <div id="exp3">
-            <h1 class="headings">
-                This is a usual h1 heading having div as a parent
-            </h1>
-            <p>
-                This is a usual paragraph, which is a direct child of div and direct sibling of h1
-            </p>
+    <div class="Page">
+        <div class="Page_Heading">
+            <header class="page_heading">
+                My Projects
+            </header>
         </div>
+        <div class="Table_Block">
+            <table class="table_block"> 
+                <tr>
+                    <th class="sr_no">
+                        Sr.No.
+                    </th>
+                    <th class="title">
+                        Title
+                    </th>
+                    <th class="feature">
+                        Feature
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        <a href="CarAd.html" class="links">CarAd</a>
+                    </td>
+                    <td>
 
-        <div>
-            <article>
-                This is an article tag. I am the only child of this div
-            </article>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        <a href="GoogleSearch.html" class="links">Google Search</a>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        <a href="FruitAd.html" class="links">FruitAd</a>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        <a href="AmazonProdPage.html" class="links">Amazon Product Page</a>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
         </div>
-
-        <div>
-            <section>
-                This is a section tag. I am the only child of this div
-            </section>
-        </div>
-
-        <div id="form_block">
-            <form action="dummy.html" id="form">
-                <h2>
-                    This is a h2 tag inside a form telling you guys this a feedback form
-                </h2>
-                <div>
-                    <label for="name" id="exp2" class="title">Enter your name: </label>
-                    <input id="name" type="text" name="name" maxlength="10">
-                </div>
-                <div>
-                    <label for="email" class="title">Enter your email id: </label>
-                    <input type="email" id="email" name="email">
-                </div>
-                <div>
-                    <label for="rating" class="title">Rating: </label>
-                    <select name="rating" id="rating">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                </div>
-                <div>
-                    <span class="title">Batch: </span>
-                    <input type="radio" id="batch_9"  name="batch" value="batch_9">
-                    <label for="batch_9" class="rad_label">09</label>
-                    <input type="radio" id="batch_10" name="batch" value="batch_9">
-                    <label for="batch_10" class="rad_label">10</label>
-                </div>
-                <div class="submit">
-                    <input type="submit" value="Submit form to get redirected to google" id="submit">
-                </div>
-            </form>
-        </div>
-
-        <div id="img_block">
-            <figure class="images">
-                <img src="images/kia.jpg" alt="image of kia car" title="Take home today" class="pic">
-                <figcaption>
-                    Kia launched in India on Saturday.
-                </figcaption>
-            </figure>
-        </div>
-
-        <div>
-            <footer class="headings">
-                This is a <span>footer</span> tag
-            </footer>
-        </div>
-
     </div>
-
 </body>
 
 </html>
